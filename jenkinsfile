@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Deploy to Main') {
+    stage('Deploy to Dev') {
       steps {
-        echo "Deploy to Main branch"
+        echo "Deploy to Dev branch"
       }
     }
   }
